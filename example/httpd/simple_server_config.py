@@ -10,7 +10,7 @@ PATHS = [
     (u'/weblab/static', u'file:/usr/local/lib/python2.7/dist-packages/weblabdeusto-5.0-py2.7.egg/weblab/core/static'),
     (u'/weblab/gwt/weblabclientlab', u'file:war/weblabclientlab'),
     (u'/weblab/web/pub', u'file:/home/unmsm/proyecto_v1/example/pub'),
-    (u'/weblab/', u'proxy-sessions:weblabsessionid:route1=http://localhost:10000/weblab/,'),
+    (u'/weblab/', u'proxy-sessions:weblabsessionid:route1=http://localhost:8000/weblab/,'),
     (u'/weblab', u'redirect:/weblab/'),
     (u'', u'redirect:/weblab/'),
 ]

@@ -7,7 +7,7 @@ hosts:
         components:
           core:
             config:
-              core_facade_port: 10000
+              core_facade_port: 8000
               core_facade_server_route: route1
             type: core
       laboratory1:

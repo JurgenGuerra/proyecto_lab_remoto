@@ -10,5 +10,5 @@ BASE_URL = u''
 # ports it should wait prior to start using
 # the simulated clients.
 PORTS = {
-    'json' : [10000], 
+    'json' : [8000], 
 }
